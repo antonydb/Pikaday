@@ -40,7 +40,8 @@
 .pika-lendar {
     float: left;
     width: 240px;
-    margin: 8px;
+    padding: 8px;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .pika-title {
@@ -196,4 +197,34 @@
 .pika-week {
     font-size: 11px;
     color: #999;
+}
+
+.pika-time-container {
+    clear: both;
+    padding: 7px 0 10px;
+    margin-top: 10px;
+    text-align: center;
+    // background: #f6f6f6;
+    table {
+        margin: 0 auto;
+        td {
+            padding: 0 4px;
+        }
+    }
+    label {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-bottom: 7px;
+    }
+    select {
+        background-color: white;
+        height: 30px;
+        margin: 0 4px;
+    }
+}
+
+.pika-time {
+    margin: 0 auto;
 }
